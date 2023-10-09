@@ -1,0 +1,41 @@
+/******************************************************************************
+Practica 2 SWITCH
+Nombre: Elisa Michelle Medina Vázquez
+Fecha: 31122
+*******************************************************************************/
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner teclado = new Scanner( System.in );
+int num;
+System.out.print("Introduzca una nota numérica entre 5 y 10: ");
+num=teclado.nextInt();
+switch(num){
+case 5:
+System.out.println("Reprobado");
+break;
+case 6:
+System.out.println("Nota minima");
+break;
+case 7:
+System.out.println("Insuficiente");
+break;
+case 8:
+System.out.println("Bien");
+break;
+case 9:
+System.out.println("Notable");
+break;
+case 10:
+System.out.println("Excelente");
+break;
+}
+}
+}
+
+
+
+
+
+
+
